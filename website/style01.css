@@ -1,0 +1,76 @@
+
+body{
+    background-color: #030b1b;
+    color: rgb(255, 255, 255);
+}
+h1, .nav_bar, ul{
+    color: rgb(255, 255, 255); 
+    text-decoration-line: none; 
+    font-family: 'Barlow Condensed', sans-serif;
+}
+nav{
+    border: none;
+    display: flex; 
+    justify-content: space-evenly;
+    margin-top: 2%; 
+    margin-bottom: 2%;
+    font-size: 1.5em;
+    position: sticky; 
+    top: 2%;
+    background-color: #030b1b;
+}
+h1{
+    display: flex;
+    justify-content: left; 
+    margin-left: 7%;
+    margin-top: 2%;
+}
+hr{
+    width: 85%;
+    color: white;
+}
+/* Navigation bar has hover effect for each element that client interacts with */
+.nav_bar:hover{
+    text-shadow: 0px 0px 2px rgb(236, 248, 78);
+}
+.nav_bar{
+    position: sticky;
+    top: 2%;
+}
+p{
+    font-size: 20px;
+    margin-left: 10%;
+    margin-right: 6%;
+    font-family: 'Barlow Condensed', sans-serif;
+    /* text-align: justify;  */
+}
+ul{
+    list-style-type: square;
+    margin-left: 5%;
+    font-size: 1em;
+}
+
+#square{
+    background: none;
+    border: white solid 1px; 
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    border-radius: 20%;
+    transform: rotate(45deg); 
+    display: grid;
+    margin-right: 20%;
+    margin-left: 15%;
+
+}
+.about{
+    display: grid;
+    grid-template-columns: 65% 20%;
+}
+.biography_continued{
+    margin-left: 6%;
+    text-align: justify;
+}
+.formatted_resume{
+   text-align: center;
+}
